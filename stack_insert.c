@@ -21,7 +21,6 @@ int display()
         printf("%d ",a[i]);
     }
 }
-
 int main()
 {
     insertend(10);

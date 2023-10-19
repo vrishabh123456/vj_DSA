@@ -13,7 +13,7 @@ int insertend(int data)
         a[top]=data;
     }
 }
-int delete()
+int display()
 {
     if(top < 0)
     {
@@ -36,7 +36,8 @@ int display()
 int main()
 {
     int i,j;
-while(1){
+while(1)
+{
     printf("\nPress 1 To Insert End\n");
     printf("Press 2 To Delete\n");
     printf("Press 3 To Display\n");
